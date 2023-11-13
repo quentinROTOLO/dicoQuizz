@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".activity.HomeActivity">
+
+    <TextView
+    android:id="@+id/textHomepage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:text="@string/titleHomeActivity"
+    android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/addTranslations"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/addTranslations" />
+
+    <Button
+        android:id="@+id/addFriends"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/addFriends" />
+
+    <Button
+        android:id="@+id/showTranslationList"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/showTranslationList" />
+
+    <Button
+        android:id="@+id/buttonDisconnect"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/buttonDisconnect" />
+
+</LinearLayout>

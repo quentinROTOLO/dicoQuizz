@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".activity.AddWordActivity">
+
+    <TextView
+        android:id="@+id/textViewEnterWords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/enterLearningWord"
+        android:orientation="vertical" />
+
+    <EditText
+        android:id="@+id/simpleEditTextReferenceLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/referenceLang"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/simpleEditTextReferenceWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/referenceWord"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/simpleEditTextReferenceWordSynonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/referenceWordSynonyms"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/simpleEditTextTranslationLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/translationLang"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/simpleEditTextTranslatedWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/wordTranslation"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/simpleEditTextTranslatedWordSynonyms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="@string/wordTranslatedSynonyms"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddWordToMyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/buttonAddWordToMyList" />
+
+    <Button
+        android:id="@+id/buttonBackToHomeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/buttonBackToHomeActivity" />
+
+
+</LinearLayout>

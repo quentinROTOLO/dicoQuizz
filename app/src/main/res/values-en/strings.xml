@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DicoQuiz</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="awa_button_enter">Enter</string>
+    <string name="awa_editText_enterWord">Enter word in your language</string>
+    <string name="awa_editText_enterTranslation">Enter translation</string>
+    <string name="awa_titleAlert_error">Error !</string>
+    <string name="awa_textAlert_error">You have already add this translation.
+    Please check the vocabulary list before adding a new one !</string>
+    <string name="buttonAddWordToMyList"> Add word to my list </string>
+    <string name="referenceWord"> Mot </string>
+    <string name="referenceWordSynonyms"> Synonyms </string>
+    <string name="wordTranslation"> Translation </string>
+    <string name="wordTranslatedSynonyms"> Synonyms</string>
+    <string name="enterLearningWord"> Enter a recently learnt words </string>
+    <string name="referenceLang"> Reference language </string>
+    <string name="translationLang"> Learning language  </string>
+    <string name="wordSuccessfullyRegistered"> This translation has been added ! </string>
+    <string name="errorWordRegistration"> Cette traduction n\'a pas été enregistrée ! </string>
+    <string name="buttonBackToHomeActivity"> Retour </string>
+    <string name="addTranslations"> Add new translations </string>
+    <string name="addFriends"> Add friends to my list </string>
+    <string name="showTranslationList"> See ly translations list </string>
+    <string name="synonymsEditTextNotObligated"> You are not obligated to fill synonyms </string>
+    <string name="editTextMustNotBeEmpty"> EditText must not be empty  </string>
+    <string name="titleHomeActivity"> Welcome to the world of DicoQuizz, a nolimit place ! </string>
+
+
+
+    <string name="ma_button_showWordList">See Word\'s list</string>
+    <string name="ma_button_addWord">Add new word</string>
+
+    <string name="wla_button_delete">Delete Vocabulary</string>
+    <string name="wla_button_modify">Modify Vocabulary</string>
+    <string name="wla_button_information">Show information</string>
+    <string name="wla_titleAlert_confirmation">Delete ?</string>
+    <string name="wla_textAlert_confirmation">Are you sure you want to delete this vocabulary ?</string>
+
+    <string name="wla_defaultText_level">0</string>
+    <string name="wla_defaultText_word">Word</string>
+    <string name="wla_defaultText_translation">Mot</string>
+
+    <string name="all_defaultText_cancel">Cancel </string>
+    <string name="all_defaultText_yes">Yes</string>
+    <string name="all_button_back">Back</string>
+
+    <string name="email"> Email Address </string>
+    <string name="passwd"> Password </string>
+    <string name="passwdConfirmation" > Confirm your password</string>
+    <string name="buttonConnect"> Connection  </string>
+    <string name="buttonDisconnect"> Logout </string>
+    <string name="disconnexionSuccesfull"> Successfully loged ou !</string>
+    <string name="userAccountCreation"> Creating your account </string>
+    <string name="passwordWith6Charaters"> Le mot de passe doit contenir au moins 6 caractères </string>
+    <string name="errorDisconnection"> Erreur lors de la déconnection </string>
+    <string name="errorLoginMessage"> Wrong login!!</string>
+    <string name="errorPasswordMessage"> Wrong password!!</string>
+    <string name="emailEnteredAlreadyexist" > This email is already used in another user account! Please use a diferent one </string>
+    <string name="completeAllTextFields" > Please complete all text fields </string>
+    <string name="connectionSuccess" > You are connected in !!</string>
+    <string name="accountSuccessfullyCreated"> Your account has been successfully created </string>
+    <string name="createAccount" > Create account </string>
+    <string name="errorAccountCreatedPleaseTryAgain" > Your account hasn\'t been created! Please try again </string>
+    <string name="errorAccountCreatedPasswordsEnteredAreDifferent" > Error, the entered passwords are different </string>
+    <string name="errorConnectionEmailAndPasswordEnteredAreFalse"> Email and password are incorrect </string>
+    <string name="connectionFailure"> Non connecté </string>
+    <string name="createMyAccount" > Create my account </string>
+    <string name="emailAddress" > Email address </string>
+    <string name="firstname"> Firstname </string>
+    <string name="backToConnectionButton" > Back to connection page </string>
+    <string name="noUserConnected"> No user is logged in </string>
+    <!-- Strings used for activity labels -->
+    <string name="title_activity_connection" > Connect you or create an account </string>*
+    <string name="title_activity_admin"> Administration interface </string>
+    <string name="title_activity_create_account"> To create an account on DicoQuizz, please enter the following data</string>
+    <string name="title_activity_friend_list">FriendListActivity</string>
+
+
+</resources>

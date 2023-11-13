@@ -1,0 +1,80 @@
+<resources>
+
+
+    <string name="app_name">DicoQuizz</string>
+    <string name="action_settings">Paramètres</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="awa_button_enter"> Entrez </string>
+    <string name="awa_editText_enterWord"> Taper un mot dans votre langue </string>
+    <string name="awa_editText_enterTranslation"> Entrez traduction </string>
+    <string name="awa_titleAlert_error">Erreur !</string>
+    <string name="awa_textAlert_error"> Vous avez déjà ajouté ce mot! Ajoutez en un autre</string>
+    // nouveau code
+    <string name="buttonAddWordToMyList"> Ajouter à ma liste </string>
+    <string name="referenceWord"> Mot </string>
+    <string name="referenceWordSynonyms"> Synonymes </string>
+    <string name="wordTranslation"> Traduction </string>
+    <string name="wordTranslatedSynonyms"> Synonymes</string>
+    <string name="enterLearningWord"> Entrez un mot appris </string>
+    <string name="referenceLang"> Langue de référence </string>
+    <string name="translationLang"> Langue apprise </string>
+    <string name="wordSuccessfullyRegistered"> Cette traduction a été enregistrée </string>
+    <string name="errorWordRegistration"> Cette traduction n\'a pas été enregistrée ! </string>
+    <string name="buttonBackToHomeActivity"> Retour </string>
+    <string name="addTranslations"> Ajouter des traductions </string>
+    <string name="addFriends"> Ajouter des amis à ma liste </string>
+    <string name="showTranslationList"> Consulter la liste de mes traductions </string>
+    <string name="synonymsEditTextNotObligated"> Les champs synonymes ne sont pas obligatoires </string>
+    <string name="editTextMustNotBeEmpty"> Les champs de saisie ne doivent pas être vides  </string>
+    <string name="titleHomeActivity"> Bienvenue sur DicoQuizz, un univers ou le progrès n\'a pas de limites !</string>
+
+    <string name="ma_button_showWordList">Consulter la liste de mots</string>
+    <string name="ma_button_addWord"> Ajouter un nouveau mot </string>
+
+    <string name="wla_button_delete">Supprimer ce mot</string>
+    <string name="wla_button_modify">Modifier ce mot</string>
+    <string name="wla_button_information">Révéler</string>
+    <string name="wla_titleAlert_confirmation">Supprimer ?</string>
+    <string name="wla_textAlert_confirmation">Etes-vous sûr de vouloir supprimer ce mot ?</string>
+
+    <string name="wla_defaultText_level">0</string>
+    <string name="wla_defaultText_word">Mot</string>
+    <string name="wla_defaultText_translation">Word</string>
+
+    <string name="all_defaultText_cancel">Annuler </string>
+    <string name="all_defaultText_yes">Oui</string>
+    <string name="all_button_back">Retour</string>
+
+    <string name="email"> Adresse mail </string>
+    <string name="passwd"> Mot de passe </string>
+    <string name="passwdConfirmation"> Confirmation de mot de passe</string>
+    <string name="buttonConnect"> Connectez-vous  </string>
+    <string name="buttonDisconnect"> Déconnexion </string>
+    <string name="disconnexionSuccesfull"> Déconnexion réussie !</string>
+    <string name="userAccountCreation"> Création de votre compte</string>
+    <string name="passwordWith6Charaters"> Le mot de passe doit contenir au moins 6 caractères </string>
+    <string name="errorDisconnection"> Erreur lors de la déconnection </string>
+    <string name="errorLoginMessage"> Mauvais login!!</string>
+    <string name="errorPasswordMessage"> Mauvais mot de passe !!</string>
+    <string name="emailEnteredAlreadyexist"> Un compte avec cet email existe déjà! Veuillez utiliser un autre </string>
+    <string name="completeAllTextFields"> Echec création de compte, veuillez compléter tous les champs de saisie </string>
+    <string name="connectionSuccess"> Vous êtes bien connecté !!</string>
+    <string name="accountSuccessfullyCreated"> Votre compte a été crée avec succès </string>
+    <string name="errorAccountCreatedPleaseTryAgain"> Echec création de compte, veuillez réessayez </string>
+    <string name="errorAccountCreatedPasswordsEnteredAreDifferent"> Echec, réessayez, les mots de passe entrés ne sont pas les mêmes </string>
+    <string name="errorConnectionEmailAndPasswordEnteredAreFalse"> L\'email et le mot de passe entré sont erronés: ressayez </string>
+    <string name="createAccount"> Créer un compte </string>
+    <string name="connectionFailure"> Non connecté </string>
+    <string name="createMyAccount"> Créer mon compte </string>
+    <string name="emailAddress"> Adresse mail </string>
+    <string name="firstname"> Prénom </string>
+    <string name="backToConnectionButton"> Retour à la page de connection </string>
+    <string name="noUserConnected"> Aucun utilisateur n\'est connecté </string>
+    <!-- Strings used for activity labels -->
+    <string name="title_activity_connection"> Connectez-vous ou créez un compte </string>
+    <string name="title_activity_admin">Interface d\'administration</string>
+    <string name="title_activity_create_account"> Pour créer un compte sur DicoQuizz, veuillez remplir les champs ci-dessous</string>
+    <string name="title_activity_friend_list">Liste d\'amis</string>
+
+</resources>

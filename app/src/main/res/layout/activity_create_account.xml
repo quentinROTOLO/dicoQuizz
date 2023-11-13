@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".activity.CreateAccountActivity"
+    >
+
+    <TextView
+        android:id="@+id/text_activity_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:text="@string/title_activity_create_account"
+        />
+
+    <EditText
+        android:id="@+id/simpleEditTextFirstnameDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/firstname"
+        android:gravity="center_horizontal|center_vertical"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/simpleEditTextEmailAddressDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/emailAddress"
+        />
+
+    <EditText
+        android:id="@+id/simpleEditTextPwdDefinition"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/passwd"
+        />
+
+    <EditText
+        android:id="@+id/simpleEditTextPwdDefConfirmation"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/passwdConfirmation"
+        />
+
+    <Button
+        android:id="@+id/buttonCreateMyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/createMyAccount" />
+
+    <Button
+        android:id="@+id/buttonBackToConnectionActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backToConnectionButton"
+        />
+
+
+</LinearLayout>

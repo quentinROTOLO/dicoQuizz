@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "867902745349",
+    "project_id": "dicoquizz",
+    "storage_bucket": "dicoquizz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867902745349:android:965d145cc6199c46b0656c",
+        "android_client_info": {
+          "package_name": "com.first.dicoquizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867902745349-a535h9hf8nnfqrhmbjnk8rnhunuj0bvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.first.dicoquizz",
+            "certificate_hash": "080866a3d9fbb44d89c115a02007ccebe7c665fb"
+          }
+        },
+        {
+          "client_id": "867902745349-a2lsflnvc44jg8qntume43le6cp1sr9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP8Yur9XI5oseWhpGxHWEkzdROCv1CJIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867902745349-a2lsflnvc44jg8qntume43le6cp1sr9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

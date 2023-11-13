@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/addWordActivity2">
+    <activity
+        android:id="@+id/addWordActivity2"
+        android:name="com.first.dicoquizz.activity.HomeActivity"
+        android:label="activity_add_word"
+        tools:layout="@layout/activity_add_word" />
+</navigation>
